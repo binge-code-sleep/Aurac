@@ -1,0 +1,87 @@
+.testimonials,
+.tles {
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.body {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tles {
+    padding: 60px;
+    width: 100%;
+    background: black;
+}
+
+.temp {
+    padding: 40px;
+}
+
+.footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: rgba(179, 212, 179, 0.692);
+    justify-content: left;
+    align-items: center;
+    backdrop-filter: blur(30px);
+}
+
+.contactus {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 40px;
+}
+
+body {
+    background: black;
+    font-family: "Fredoka", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    backdrop-filter: blur(20px);
+}
+
+.features {
+    padding: 50px 12px;
+    font-size: 22px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.text-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.features h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: aliceblue;
+}

@@ -1,0 +1,36 @@
+.navigation a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+header {
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    overflow: hidden;
+}
+
+header h2 {
+    font-size: 3em;
+    background: white;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    pointer-events: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    font-weight: 500;
+}
